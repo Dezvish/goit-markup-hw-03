@@ -78,12 +78,12 @@ footer {
 }
 
 .bar-card {
-  padding: 24px 0;
 }
 
 .bar-box {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .logo {
