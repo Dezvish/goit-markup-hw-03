@@ -83,7 +83,6 @@ footer {
 .bar-box {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .logo {
@@ -134,6 +133,8 @@ footer {
 }
 
 .header-bar {
+  display: block;
+  padding: 24px 0;
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
