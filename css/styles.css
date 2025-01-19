@@ -33,6 +33,20 @@ footer {
   background-color: #2e2f42;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   max-width: 1158;
   margin: 0 auto;
@@ -69,6 +83,19 @@ footer {
 
 .logo {
   margin-right: 76px;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -159,6 +186,7 @@ footer {
 }
 
 .order-page {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
@@ -171,12 +199,18 @@ footer {
 }
 
 .order-button {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
   color: #ffffff;
   background-color: #4d5ae5;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
   cursor: pointer;
+  border: none;
 }
 
 .order-button:hover,
@@ -189,22 +223,43 @@ footer {
   cursor: pointer;
 }
 
+.advantages {
+  padding: 120px 0;
+}
+
+.advantages-box {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-l {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .advantages-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .advantages-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 264px;
 }
 
 .employees-page {
+  padding: 120px 0;
   background-color: #f4f4fd;
+}
+
+.employees-box {
+  display: flex;
+  justify-content: space-around;
 }
 
 .employees-heading {
@@ -264,7 +319,6 @@ footer {
 }
 
 .final-text {
-  margin-top: 17.5px;
   max-width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
