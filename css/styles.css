@@ -34,19 +34,20 @@ footer {
 }
 
 .container {
-  max-width: 1128;
+  max-width: 1158;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .contact-list {
+  margin-left: 0 auto;
   display: flex;
   column-gap: 40px;
-  padding: 24px 0;
+  justify-content: flex-end;
 }
 
-.flex-header {
-  display: flex;
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-container {
@@ -67,7 +68,6 @@ footer {
 }
 
 .logo {
-  padding: 24px 0;
   margin-right: 76px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -264,7 +264,13 @@ footer {
 }
 
 .final-text {
+  margin-top: 17.5px;
+  max-width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.for-autotest {
+  padding: 100px 0;
 }
