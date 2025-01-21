@@ -197,7 +197,7 @@ footer {
 }
 
 .order-title {
-  margin: 48px auto;
+  margin: 0 auto 48px;
   max-width: 496px;
   color: #ffffff;
   font-size: 56px;
@@ -272,8 +272,6 @@ footer {
 }
 
 .employees-card {
-  display: flex;
-  flex-direction: column;
   padding: 32px 0;
 }
 
@@ -349,7 +347,6 @@ footer {
   letter-spacing: 0.02em;
   line-height: 1.2;
   font-weight: 500;
-  padding: 8px 0;
 }
 
 .products-description {
